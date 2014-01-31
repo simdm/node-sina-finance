@@ -4,12 +4,8 @@
 
 'use strict';
 
-var util = require('util');
-
+var sinaFinance = require('..');
 require('colors');
-
-var _ = require('lodash'),
-    sinaFinance = require('..');
 
 var stockCodes = 'sh601006,sh601007';
 
