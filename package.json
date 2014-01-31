@@ -1,7 +1,7 @@
 {
   "name": "sina-finance",
   "description": "sina Finance snapshot data downloader written in Node.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "author": {
     "name": "de meng",
@@ -23,18 +23,10 @@
     "library"
   ],
   "dependencies": {
-    "async": "~0.2.9",
-    "lodash": "~2.2.1",
-    "moment": "~2.4.0",
-    "request": "~2.27.0",
-    "string": "~1.6.1"
+    "request": "~2.27.0"
   },
   "devDependencies": {
-    "colors": "~0.6.2",
-    "grunt": "~0.4.1",
-    "grunt-contrib-jshint": "~0.7.0",
-    "grunt-contrib-watch": "~0.5.3",
-    "matchdep": "~0.3.0"
+    "colors": "~0.6.2"
   },
   "scripts": {
     "prepublish": "npm prune"
