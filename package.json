@@ -23,7 +23,8 @@
     "library"
   ],
   "dependencies": {
-    "request": "~2.27.0"
+    "iconv-lite": "*",
+    "bufferhelper": "*"
   },
   "devDependencies": {
     "colors": "~0.6.2"
