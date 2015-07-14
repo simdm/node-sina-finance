@@ -30,6 +30,7 @@ sinaFinance.snapshot(stockCodes, function (err, data, url, stockInfoArray) {
   for (var i = 0; i < stockInfoArray.length; ++i) {
   	var stockNode = stockInfoArray[i].split(',');
   	console.log('股票代码: ' + stockNode[0]);
+    console.log('股票名称: ' + stockNode[1]);
   	console.log('今日开盘价: ' + stockNode[2]);
   	console.log('昨日收盘价: ' + stockNode[3]);
   	console.log('当前价格: ' + stockNode[4]);
