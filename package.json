@@ -1,7 +1,7 @@
 {
   "name": "sina-finance",
   "description": "sina Finance snapshot data downloader written in Node.js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "author": {
     "name": "de meng",
